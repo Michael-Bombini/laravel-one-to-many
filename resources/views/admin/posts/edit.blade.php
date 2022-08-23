@@ -22,10 +22,10 @@
         </div>
 
 
-        <div class="mb-3">
+        {{-- <div class="mb-3">
             <label for="price" class="form-label">Post Author </label>
             <input type="text" class="form-control" name="author" id="author" value="{{$post["author"]}}" >
-        </div>
+        </div> --}}
 
       
 
