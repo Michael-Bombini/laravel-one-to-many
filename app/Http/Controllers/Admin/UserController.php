@@ -18,10 +18,10 @@ class UserController extends Controller
     public function index()
     {
         //
-
+        
         $details = UserDetail::all();
-
-        return view("admin.users.index", compact("details"));
+        $users = User::all();
+        return view("admin.users.index", compact("details" , "users"));
 
 
     }
