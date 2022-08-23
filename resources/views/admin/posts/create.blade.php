@@ -19,11 +19,11 @@
                 <input type="text" class="form-control" name="image" id="image" placeholder="image">
             </div>
 
-
+{{-- 
             <div class="mb-3">
                 <label for="price" class="form-label">Author Name </label>
                 <input type="text" class="form-control" name="author" id="author" placeholder="author">
-            </div>
+            </div> --}}
 
         
 

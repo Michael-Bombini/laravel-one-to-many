@@ -23,7 +23,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-6 author">
-                                    {{ $post['author'] }}
+                                    {{ $post['user_id'] }}
                                 </div>
                                 <div class="col-6">
                                     {{ $post['created_at'] }}

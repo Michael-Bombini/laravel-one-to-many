@@ -12,9 +12,9 @@
                 {{ $post['description'] }}
             </div>
             <div class="row">
-                <div class="col-6 author">
+                {{-- <div class="col-6 author">
                     {{ $post['author'] }}
-                </div>
+                </div> --}}
                 <div class="col-6">
                     {{ $post['created_at'] }}
                 </div>
