@@ -16,7 +16,7 @@
             </div>
             <div class="col-5 ml-4 text-center bg-white">
                 <div class="p-3">
-                    <h2 class="mb-4">See public posts</h2>
+                    <h2 class="mb-4">See Users details</h2>
                     <div class="mb-2">
                         <i class="fa-solid fa-4x fa-user-check"></i>
                     </div>

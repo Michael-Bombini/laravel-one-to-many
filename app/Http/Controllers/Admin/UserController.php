@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\User;
 
 use App\Http\Controllers\Controller;
+use App\UserDetail;
 use Illuminate\Http\Request;
 
 class UserController extends Controller
@@ -18,9 +19,9 @@ class UserController extends Controller
     {
         //
 
-        $users = User::all();
+        $details = UserDetail::all();
 
-        return view("admin.users.index", compact("users"));
+        return view("admin.users.index", compact("details"));
 
 
     }
